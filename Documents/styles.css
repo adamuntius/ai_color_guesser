@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+}
+.header {
+    font-size: 80px;
+    text-align: center;
+    background-color: #ddddddaa;
+    padding: 20px;
+}
+label {
+    padding: 12px;
+    font-size: 20px;
+}
+input {
+    margin-bottom: 24px;
+    width: 200px;
+}
+input[type=submit] {
+    margin: 24px;
+    width: 300px;
+    font-size: 18px;
+}
+.footer{
+    height: 60px;
+    background-color: #ddddddaa;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+}
+.ownership {
+    align-self: flex-end;
+    height: 100%;
+}
+.ownership-text {
+    height: 10%;
+    margin-top: 76px;
+    margin-right: 10px;
+}
+#thinkofcolor {
+    font-size: 30px;
+    color: #000000;
+    font-weight: bold;
+    margin: 24px;
+}
+.form-grid {
+    display: grid;
+    grid-template-rows: 1fr 1.618fr;
+    text-align: center;
+}
+.inputs-grid {
+    display: grid;
+    grid-template-columns: 1.618fr 1.2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: left;
+}
+.label-container {
+    margin-left: 60vh;
+}
+.input-container {
+    text-align: left;
+}
+.question-area {
+    background-color: #dd000033;
+    height: 76%;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#mrclabel {
+    color: #000000ff;
+    font-size: 32px;
+    font-weight: bold;
+}
+#color-text {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+/*----------------------------*/
+
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait */
+
+@media only screen
+
+and (min-device-width: 375px)
+
+and (max-device-width: 667px)
+
+and (orientation: portrait) {
+
+    body {
+        margin: 0;
+    }
+    .header {
+        font-size: 80px;
+        text-align: center;
+        background-color: #ddddddaa;
+        padding: 20px;
+    }
+    label {
+        padding: 12px;
+        font-size: 20px;
+    }
+    input {
+        margin-bottom: 24px;
+        width: 200px;
+    }
+    input[type=submit] {
+        margin: 24px;
+        width: 300px;
+        font-size: 18px;
+    }
+    .footer{
+        height: 60px;
+        background-color: #ddddddaa;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        padding: 10px 10px 0px 10px;
+        bottom: 0;
+        width: 100%;
+    }
+    .ownership {
+        align-self: flex-end;
+        height: 100%;
+    }
+    .ownership-text {
+        height: 10%;
+        margin-top: 76px;
+        margin-right: 10px;
+    }
+    #thinkofcolor {
+        font-size: 30px;
+        color: #000000;
+        font-weight: bold;
+        margin: 24px;
+    }
+    .form-grid {
+        display: grid;
+        grid-template-rows: 1fr 1.618fr;
+        text-align: center;
+    }
+    .inputs-grid {
+        display: grid;
+        grid-template-columns: 1.618fr 1.2fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        text-align: left;
+    }
+    .label-container {
+        margin-left: 10%;
+    }
+    .input-container {
+        text-align: left;
+    }
+    .question-area {
+        background-color: #dd000033;
+        height: 76%;
+        border-radius: 3px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #mrclabel {
+        color: #000000ff;
+        font-size: 32px;
+        font-weight: bold;
+    }
+    #color-text {
+        background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+    }
+}
